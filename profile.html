@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/style/header.css" rel="stylesheet">
+        <link href="/style/footer.css" rel="stylesheet">
+        <link href="/style/page-profile.css" rel="stylesheet">
+    </head>
+    <body class="m-0">
+        <div class="flex flex-col min-h-full">
+            <div class="flex flex=row w-full h-wrap">
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <img src="/assets/logo.png" alt="" class="h-logo">
+                    <img src="/assets/textLogo.png" alt="" class="h-textLogo">
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <a href="#" class="h-sh text-sm">Home</a>
+                    <a href="#" class="h-sh text-sm">Product</a>
+                    <a href="#" class="h-sh text-sm">Your Cart</a>
+                    <a href="#" class="h-sh text-sm">History</a>
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center" >
+                    <a href="#Search" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-search p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="#Message" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-envelope p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="profile.html" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                        <img src="/assets/user.png" alt="" class="h-up-sm">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full profile-wrap p-28" style="height: 80rem;">
+                <div class="profile-title py-4 h-1/6">User Profile</div>
+                <div class="flex flex-row w-full h-2/6 mb-16">
+                    <div class="flex flex-col w-4/12 bg-white py-4 mr-8 rounded-md profile-border justify-center items-center">
+                        <img class="rounded-full w-36 h-36" src="/assets/user.png" alt="">
+                        <a href="#ChangePhoto" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 profile-bi profile-bi-p">
+                            <i class="fa fa-pencil-alt p-2 text-md profile-i"></i>
+                        </a>
+                        <div class="text-xl profile-name">Zulaikha</div>
+                        <div class="text-xs profile-email">zulaikha17@gmail.com</div>
+                        <div class="text-base profile-email mt-6">Has been ordered 15 products</div>
+                    </div>
+                    <div class="flex flex-col w-8/12 bg-white py-4 px-8 rounded-md profile-border">
+                        <div class="flex flex-row w-full h-1/6">
+                            <div class="flex w-2/4 items-center justify-start profile-textContact text-2xl">Contacts</div>
+                            <div class="flex w-2/4 items-center justify-end">
+                                <button class="focus:outline-none flex justify-center items-center rounded-full profile-bi" type="submit">
+                                    <i class="fa fa-pencil-alt p-3 text-lg profile-i"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <form class="flex flex-col flex-wrap w-full py-8 h-5/6">
+                            <label class="profile-label text-lg pr-2" for="email">Email adress:</label>
+                            <input class="focus:outline-none profile-input" value="zulaikha17@gmail.com" type="email" id="email" name="email" placeholder="Enter your value">
+
+                            <label class="profile-label text-lg pr-2" for="adress">Delivery adress:</label>
+                            <input class="focus:outline-none profile-input" value="Iskandar Street no. 67 Block A Near Bus Stop" type="text" id="adress" name="adress" placeholder="Enter your value">
+
+                            <label class="profile-label text-lg pr-2" for="p-number">Mobile number:</label>
+                            <input class="focus:outline-none profile-input" value="(+62)813456782" type="text" id="p-number" name="p-number" placeholder="Enter your value">
+                        </form>
+                    </div>
+                </div>
+                <div class="flex flex-row w-full h-3/6 mb-16">
+                    <div class="flex flex-col w-4/6 bg-white py-4 px-8 rounded-md profile-border">
+                        <div class="flex flex-row w-full h-1/6">
+                            <div class="flex w-2/4 items-center justify-start profile-textContact text-2xl">Details</div>
+                            <div class="flex w-2/4 items-center justify-end">
+                                <button class="focus:outline-none flex justify-center items-center rounded-full profile-bi" type="submit">
+                                    <i class="fa fa-pencil-alt p-3 text-lg profile-i"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <form class="flex flex-col flex-wrap w-full h-5/6">
+                            <label class="profile-label text-lg pr-2 py-4" for="d-name">Display name:</label>
+                            <input class="focus:outline-none profile-input" value="Zulaikha" type="text" id="d-name" name="d-name" placeholder="Enter your value">
+
+                            <label class="profile-label text-lg pr-2 py-4" for="f-name">First name:</label>
+                            <input class="focus:outline-none profile-input" value="Zulaikha" type="text" id="f-name" name="f-name" placeholder="Enter your value">
+
+                            <label class="profile-label text-lg pr-2 py-4" for="l-name">Last name:</label>
+                            <input class="focus:outline-none profile-input" value="Nirmala" type="text" id="l-name" name="l-name" placeholder="Enter your value">
+
+                            <label class="profile-label text-lg pr-2 py-4" for="l-name">DD/MM/YY:</label>
+                            <input class="focus:outline-none profile-input" value="1990-04-03" type="date" id="l-name" name="l-name" placeholder="Enter your value">
+
+                            <label class="profile-rb text-lg pl-8 mb-4 mt-8">Male
+                                <input type="radio" id="male" name="gender" value="male">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="profile-rb text-lg pl-8 my-4">Female
+                                <input type="radio" id="female" name="gender" value="female">
+                                <span class="checkmark"></span>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="flex flex-col w-2/6 px-4">
+                        <div class="flex justify-center items-center profile-title-2">Do you want to save the change?</div>
+                        <input class="my-4 shadow-md profile-button-b" type="submit" value="Save Change">
+                        <a class="mt-1 mb-8 shadow-md profile-button-y">Cancel</a>
+                        <a class="my-4 shadow-md profile-button-w">Edit Password</a>
+                        <a class="mt-1 mb-4 shadow-md profile-button-w">Log out</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-row w-full f-wrap">
+                <div class="flex flex-col w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-row">
+                        <img src="/assets/logo.png" alt="" class="f-logo">
+                        <img src="/assets/textLogo.png" alt="" class="f-textLogo">
+                    </div>
+                    <p class="f-p">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                    <div class="flex flex-row py-4 justify-start items-center">
+                        <a href="facebook.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-facebook-f p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="twitter.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-twitter p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="instagram.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-instagram p-2 text-md f-c-sm"></i>
+                        </a>
+                    </div>
+                    <div class="f-text-cr">©2020CoffeeStore</div>
+                </div>
+                <div class="flex flex-row w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Product</div>
+                        <a href="#" class="f-content-sf text-sm">Download</a>
+                        <a href="#" class="f-content-sf text-sm">Pricing</a>
+                        <a href="#" class="f-content-sf text-sm">Locations</a>
+                        <a href="#" class="f-content-sf text-sm">Countries</a>
+                        <a href="#" class="f-content-sf text-sm">Blog</a>
+                    </div>
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Engage</div>
+                        <a href="#" class="f-content-sf text-sm">Coffee Shop?</a>
+                        <a href="#" class="f-content-sf text-sm">FAQ</a>
+                        <a href="#" class="f-content-sf text-sm">About Us</a>
+                        <a href="#" class="f-content-sf text-sm">Privacy Policy</a>
+                        <a href="#" class="f-content-sf text-sm">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

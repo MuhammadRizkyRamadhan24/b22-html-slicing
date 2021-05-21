@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/style/header.css" rel="stylesheet" type="text/css">
+        <link href="/style/footer.css" rel="stylesheet" type="text/css">
+        <link href="/style/page-product.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="m-0">
+        <div class="flex flex-col min-h-full">
+            <div class="flex flex-row w-full h-wrap">
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <img src="/assets/logo.png" alt="" class="h-logo">
+                    <img src="/assets/textLogo.png" alt="" class="h-textLogo">
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <a href="#" class="h-sh text-sm">Home</a>
+                    <a href="#" class="h-sh text-sm">Product</a>
+                    <a href="#" class="h-sh text-sm">Your Cart</a>
+                    <a href="#" class="h-sh text-sm">History</a>
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center" >
+                    <a href="#Search" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-search p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="#Message" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-envelope p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="profile.html" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                        <img src="/assets/user.png" alt="" class="h-up-sm">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-row w-full" style="height: 66rem;">
+                <div class="flex flex-col w-2/6 items-center justify-center py-10" style="border-right: .1rem solid #9F9F9F;">
+                    <div class="text-center product-title pt-8 pb-4">
+                        Promo for you
+                    </div>
+                    <div class="text-center product-paragraph w-64 pt-4 pb-4">
+                        Coupons will be updated every weeks. Check them out! 
+                    </div>
+                    <div class="flex flex-row justify-center items-center pt-4 pb-4">
+                        <div class="flex flex-col h-96 w-56 rounded-2xl product-card-1 justify-center items-center">
+                            <div class="flex flex-col justify-center items-center w-full h-4/6 p-6">
+                                <img src="/assets/spageti.png" alt="" class="rounded-full h-28 m-4">
+                                <div class="text-center product-card-p">
+                                    Beff Spaghetti
+                                </div>
+                                <div class="text-center product-card-p">
+                                    20% OFF
+                                </div>
+                                <div class="text-center product-card-pd m-1">
+                                    Buy 1 Choco Oreo and get 20% off for Beef Spaghetti
+                                </div>
+                            </div>
+                            <div class="flex flex-col justify-center items-center w-full h-2/6 border-t-2 border-black border-dashed">
+                                <div class="text-center product-card-c">
+                                    COUPON CODE
+                                </div>
+                                <div class="text-center product-card-cc">
+                                    FNPR15RG
+                                </div>
+                                <div class="text-center product-card-cd">
+                                    Valid untill October 10th 2020
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex h-80 w-6 rounded-r-2xl product-card-2 justify-center items-center">
+                        </div>
+                        <div class="flex h-64 w-6 rounded-r-2xl product-card-3 justify-center items-center">
+                        </div>
+                    </div>
+                    <a class="product-card-btn w-60 pt-4 pb-4">Cancel</a>
+                    <div class="flex flex-col pt-24">
+                        <div class="product-tc font-bold">
+                            Terms and Condition
+                        </div>
+                        <div class="product-tc font-normal">
+                            1. You can only apply 1 coupon per day
+                        </div>
+                        <div class="product-tc font-normal">
+                            2. It only for dine in
+                        </div> 
+                        <div class="product-tc font-normal">
+                            3. Buy 1 get 1 only for new user
+                        </div>
+                        <div class="product-tc font-normal">
+                            4. Should make member card to apply coupon
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col w-4/6">
+                    <div class="flex flex-row h-1/6 justify-center items-center mx-12">
+                        <a class="flex-1 text-md text-center product-nav active" href="">Favorite Product</a>
+                        <a class="flex-1 text-md text-center product-nav" href="">Coffee</a>
+                        <a class="flex-1 text-md text-center product-nav" href="">Non Coffee</a>
+                        <a class="flex-1 text-md text-center product-nav" href="">Foods</a>
+                        <a class="flex-1 text-md text-center product-nav" href="">Add-on</a>
+                    </div>
+                    <div class="flex flex-row flex-wrap h-5/6 px-12">
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                              <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                              </div>
+                              <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                              <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                              <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                              <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                              <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                              <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        <div class="flex flex-col shadow-xl h-60 w-40 text-center items-center justify-center m-2 rounded-t-full rounded-b-3xl p-2">
+                            <div class="flex justify-center">
+                                <img class="h-24 w-24 rounded-full" src="/assets/spageti.png" alt="">
+                            </div>
+                            <p class="font-bold text-xl product-f-p my-2">Veggie tomato mix</p>
+                            <p class="font-normal product-f-p">IDR 34.000</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex flex-row w-full f-wrap">
+                <div class="flex flex-col w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-row">
+                        <img src="/assets/logo.png" alt="" class="f-logo">
+                        <img src="/assets/textLogo.png" alt="" class="f-textLogo">
+                    </div>
+                    <p class="f-p">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                    <div class="flex flex-row py-4 justify-start items-center">
+                        <a href="facebook.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-facebook-f p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="twitter.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-twitter p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="instagram.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-instagram p-2 text-md f-c-sm"></i>
+                        </a>
+                    </div>
+                    <div class="f-text-cr">©2020CoffeeStore</div>
+                </div>
+                <div class="flex flex-row w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Product</div>
+                        <a href="#" class="f-content-sf text-sm">Download</a>
+                        <a href="#" class="f-content-sf text-sm">Pricing</a>
+                        <a href="#" class="f-content-sf text-sm">Locations</a>
+                        <a href="#" class="f-content-sf text-sm">Countries</a>
+                        <a href="#" class="f-content-sf text-sm">Blog</a>
+                    </div>
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Engage</div>
+                        <a href="#" class="f-content-sf text-sm">Coffee Shop?</a>
+                        <a href="#" class="f-content-sf text-sm">FAQ</a>
+                        <a href="#" class="f-content-sf text-sm">About Us</a>
+                        <a href="#" class="f-content-sf text-sm">Privacy Policy</a>
+                        <a href="#" class="f-content-sf text-sm">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
