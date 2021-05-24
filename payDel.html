@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="/style/header.css" rel="stylesheet" type="text/css">
+        <link href="/style/footer.css" rel="stylesheet" type="text/css">
+        <link href="/style/page-payDel.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="m-0">
+        <div class="flex flex-col min-h-full">
+            <div class="flex flex-row w-full h-wrap">
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <img src="/assets/logo.png" alt="" class="h-logo">
+                    <img src="/assets/textLogo.png" alt="" class="h-textLogo">
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center">
+                    <a href="#" class="h-sh text-sm">Home</a>
+                    <a href="#" class="h-sh text-sm">Product</a>
+                    <a href="#" class="h-sh text-sm">Your Cart</a>
+                    <a href="#" class="h-sh text-sm">History</a>
+                </div>
+                <div class="flex flex-row w-2/6 justify-center items-center" >
+                    <a href="#Search" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-search p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="#Message" class="flex justify-center items-center rounded-full h-8 w-8 mr-3">
+                        <i class="fa fa-envelope p-2 text-md h-ci"></i>
+                    </a>
+                    <a href="profile.html" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                        <img src="/assets/user.png" alt="" class="h-up-sm">
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex-row w-full pd-wrap py-12 px-28">
+                <div class="flex flex-col w-3/6 h-full">
+                    <div class="text-left text-4xl w-72 text-white pd-title mb-10">Checkout your item now!</div>
+                    <div class="flex flex-col bg-white rounded-3xl h-full justify-center items-center px-10 pr-5">
+                        <div class="text-center text-3xl pd-title-detail pb-8">Order summary</div>
+                        <div class="flex flex-col">
+                            <div class="flex flex-row my-4 text-xl justify-center items-center">
+                                <img class="summ-img rounded-lg pr-4" src="/assets/pd-item.png" alt="">
+                                <div class="flex flex-col pr-4 pd-text-iDetail">
+                                  <p>Hazelnut latte</p>
+                                  <p>x1</p>
+                                  <p>Regular</p>
+                                </div>
+                                <div class="flex justify-end items-center text-center pd-text-iDetail">
+                                  <p>IDR 24.0</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row my-4 text-xl justify-center items-center">
+                                <img class="summ-img rounded-lg pr-4" src="/assets/pd-item.png" alt="">
+                                <div class="flex flex-col pr-4 pd-text-iDetail">
+                                  <p>Hazelnut latte</p>
+                                  <p>x1</p>
+                                  <p>Regular</p>
+                                </div>
+                                <div class="flex justify-end items-center text-center pd-text-iDetail">
+                                  <p>IDR 24.0</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row py-10">
+                                <div class="flex flex-col w-3/6">
+                                    <p class="text-xl pd-text-iDetail">SUBTOTAL</p>
+                                    <p class="text-xl pd-text-iDetail">TAX & FEES</p>
+                                    <p class="text-xl pd-text-iDetail">SHIPPING</p>
+                                </div>
+                                <div class="flex flex-col w-3/6 items-end">
+                                    <p class="text-xl pd-text-iDetail">IDR 120.000</p>
+                                    <p class="text-xl pd-text-iDetail">IDR 20.000</p>
+                                    <p class="text-xl pd-text-iDetail">IDR 10.000</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="flex flex-col w-3/6">
+                                    <p class="text-2xl font-medium pd-text-iDetail">SUBTOTAL</p>
+                                </div>
+                                <div class="flex flex-col w-3/6 items-end">
+                                    <p class="text-2xl font-medium pd-text-iDetail">IDR 120.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex flex-col w-3/6 h-full pt-32 pl-5">
+                    <div class="flex flex-row w-full h-10 items-center">
+                        <div class="text-xl pd-title text-white w-5/6">Address details</div>
+                        <a href="" class="text-lg pd-title text-white w-1/6">edit</a>
+                    </div>
+                    <div class="flex flex-col bg-white rounded-3xl w-full h-52 justify-center p-10">
+                        <div class="pd-text-iDetail text-xl py-2 border-b-2"><span class="font-bold">Delivery </span>to Iskandar Street</div>
+                        <div class="pd-text-iDetail text-xl py-2 border-b-2">Km 5 refinery road oppsite re public road, effurun, Jakarta</div>
+                        <div class="pd-text-iDetail text-xl py-2">+62 81348287878</div>
+                    </div>
+                    <div class="flex items-center text-xl pd-title text-white w-full h-20 pt-10">Payment method</div>
+                    <div class="flex flex-col bg-white rounded-3xl w-full h-52 pl-10 justify-center">
+                        <label class="pd-rb text-lg pd-text-iDetail pl-8 mb-4 mt-4 font-medium"><i class="fas fa-credit-card pr-2"></i>Card
+                            <input type="radio" id="card" name="payment" value="card">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="pd-rb text-lg pd-text-iDetail pl-8 mb-4 mt-4 font-medium"><i class="fas fa-university pr-2"></i>Bank account
+                            <input type="radio" id="bank-account" name="payment" value="bank-account">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="pd-rb text-lg pd-text-iDetail pl-8 mb-4 mt-4 font-medium"><i class="fas fa-truck pr-2"></i></i>Cash on delivery
+                            <input type="radio" id="cod" name="payment" value="cod">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <a class="shadow-md text-lg rounded-3xl pd-btn mt-10 w-full h-16">Cancel</a>
+
+                </div> 
+            </div>
+
+            <div class="flex flex-row w-full f-wrap">
+                <div class="flex flex-col w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-row">
+                        <img src="/assets/logo.png" alt="" class="f-logo">
+                        <img src="/assets/textLogo.png" alt="" class="f-textLogo">
+                    </div>
+                    <p class="f-p">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                    <div class="flex flex-row py-4 justify-start items-center">
+                        <a href="facebook.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-facebook-f p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="twitter.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-twitter p-2 text-md f-c-sm"></i>
+                        </a>
+                        <a href="instagram.com" class="flex justify-center items-center rounded-full h-8 w-8 mr-3 f-bc-sm">
+                            <i class="fab fa-instagram p-2 text-md f-c-sm"></i>
+                        </a>
+                    </div>
+                    <div class="f-text-cr">©2020CoffeeStore</div>
+                </div>
+                <div class="flex flex-row w-2/4 h-full px-32 py-28">
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Product</div>
+                        <a href="#" class="f-content-sf text-sm">Download</a>
+                        <a href="#" class="f-content-sf text-sm">Pricing</a>
+                        <a href="#" class="f-content-sf text-sm">Locations</a>
+                        <a href="#" class="f-content-sf text-sm">Countries</a>
+                        <a href="#" class="f-content-sf text-sm">Blog</a>
+                    </div>
+                    <div class="flex flex-col w-2/4">
+                        <div class="f-title-sf text-base">Engage</div>
+                        <a href="#" class="f-content-sf text-sm">Coffee Shop?</a>
+                        <a href="#" class="f-content-sf text-sm">FAQ</a>
+                        <a href="#" class="f-content-sf text-sm">About Us</a>
+                        <a href="#" class="f-content-sf text-sm">Privacy Policy</a>
+                        <a href="#" class="f-content-sf text-sm">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
